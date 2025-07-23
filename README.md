@@ -5,7 +5,7 @@ The goal of facial emotion detection, a crucial application of deep learning and
 #### OpenCV -Used for image processing, face detection, and video capture (real-time webcam feed).
 #### CNN (Keras/TensorFlow)- Deep learning model trained to classify facial expressions.
 #### Dataset- FER-2013 dataset; grayscale 48x48 images with 7 emotion labels.
-#### Preprocessing -	Face detection using Haar cascades, resizing, grayscale conversion, normalization.
+#### Preprocessing -	Face detection, resizing, grayscale conversion, normalization.
 #### Training - CNN architecture with multiple convolution and pooling layers, dropout, and softmax output layer.
 #### Real-Time Inference	Captures - video via webcam, detects faces using OpenCV, predicts emotion using trained model.
 #### Evaluation - Accuracy, loss graphs, confusion matrix, and model performance on validation/test data.
